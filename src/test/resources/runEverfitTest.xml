@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="K12lms" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="reportConfig.ExtentTestListener"></listener>
+	</listeners>
+
+    <test name="Run on Chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="EverfitTest.Tasks_01_Test"/>
+        </classes>
+    </test>
+
+</suite> 
+
